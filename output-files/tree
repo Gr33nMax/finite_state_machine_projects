@@ -1,0 +1,19 @@
+digraph Tree {
+	node [shape=ellipse]
+	"Head V1" [label="="]
+	"Left V2" [label=A]
+	"Head V1" -> "Left V2"
+	"Right V3" [label="+"]
+	"Head V1" -> "Right V3"
+	"Left V6" [label=2]
+	"Right V3" -> "Left V6"
+	"Right V7" [label="-"]
+	"Right V3" -> "Right V7"
+	"Left V10" [label=3]
+	"Right V7" -> "Left V10"
+	"Right V11" [label=5]
+	"Right V7" -> "Right V11"
+	fontsize=16 label="
+
+A = 2 + 3 - 5"
+}
