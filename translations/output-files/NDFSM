@@ -1,0 +1,47 @@
+digraph NDFSM {
+	A
+	S1
+	A -> S1 [label=x]
+	S3
+	A -> S3 [label=x]
+	Z
+	A -> Z [label=x]
+	S14
+	A -> S14 [label=y]
+	S6
+	A -> S6 [label=a]
+	S11
+	A -> S11 [label=a]
+	S3
+	Z
+	S3 -> Z [label=x]
+	S5
+	S3 -> S5 [label=y]
+	S14
+	S3 -> S14 [label=y]
+	S5
+	S5
+	S5 -> S5 [label=y]
+	S14
+	S5 -> S14 [label=y]
+	Z
+	S5 -> Z [label=x]
+	S6
+	S1
+	S6 -> S1 [label=b]
+	S11
+	S11
+	S11 -> S11 [label=a]
+	Z
+	S11 -> Z [label=x]
+	S14
+	S11 -> S14 [label=y]
+	S1
+	Z
+	S1 -> Z [label=x]
+	S14
+	S1 -> S14 [label=y]
+	S14
+	S14
+	S14 -> S14 [label=y]
+}

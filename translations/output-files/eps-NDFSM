@@ -1,0 +1,37 @@
+digraph "eps-NDFSM" {
+	A
+	S3
+	A -> S3 [label=x]
+	S1
+	A -> S1 [label=x]
+	S6
+	A -> S6 [label=a]
+	S11
+	A -> S11 [label=eps]
+	S3
+	S5
+	S3 -> S5 [label=eps]
+	S5
+	S5
+	S5 -> S5 [label=y]
+	S1
+	S5 -> S1 [label=eps]
+	S6
+	S1
+	S6 -> S1 [label=b]
+	S11
+	S11
+	S11 -> S11 [label=a]
+	S1
+	S11 -> S1 [label=eps]
+	S1
+	Z
+	S1 -> Z [label=x]
+	S14
+	S1 -> S14 [label=eps]
+	S14
+	S14
+	S14 -> S14 [label=y]
+	Z
+	S14 -> Z [label=eps]
+}

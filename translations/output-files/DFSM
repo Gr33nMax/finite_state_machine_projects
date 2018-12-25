@@ -1,0 +1,43 @@
+digraph DFSM {
+	A
+	S1_S3_Z
+	A -> S1_S3_Z [label=x]
+	S14
+	A -> S14 [label=y]
+	S6_S11
+	A -> S6_S11 [label=a]
+	S1_S3_Z
+	Z
+	S1_S3_Z -> Z [label=x]
+	S5_S14
+	S1_S3_Z -> S5_S14 [label=y]
+	S14
+	S14
+	S14 -> S14 [label=y]
+	S6_S11
+	S1
+	S6_S11 -> S1 [label=b]
+	Z
+	S6_S11 -> Z [label=x]
+	S14
+	S6_S11 -> S14 [label=y]
+	S11
+	S6_S11 -> S11 [label=a]
+	S5_S14
+	Z
+	S5_S14 -> Z [label=x]
+	S5_S14
+	S5_S14 -> S5_S14 [label=y]
+	S1
+	Z
+	S1 -> Z [label=x]
+	S14
+	S1 -> S14 [label=y]
+	S11
+	Z
+	S11 -> Z [label=x]
+	S14
+	S11 -> S14 [label=y]
+	S11
+	S11 -> S11 [label=a]
+}
