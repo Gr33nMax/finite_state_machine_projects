@@ -1,8 +1,5 @@
 # Author: Sidorenko Maxim
 # VK: vk.com/maksim2009rus
-# HSE Group BIV-155
-# Telegram: @iMaxGre3n
-# Tasks:
 # 1) Generating a Non-Deterministic Finite Automaton by a regular expression.
 # 2) Translation of NDFA to DFA.
 #
