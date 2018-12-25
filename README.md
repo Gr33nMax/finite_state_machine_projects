@@ -1,5 +1,5 @@
 # Finite State Machine Projects
-Implementation of the two projects based on the FSM
+Implementation of two projects based on the FSM
 
 ## Description
 ### Project "Translations"
