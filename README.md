@@ -11,7 +11,7 @@ After each translaton script builds FSM-tree and draw it using the ***GraphViz**
 
 ### Requirements for project "Translations"
 - Python 3.6+
-- Graphviz (with the C++ compilator)
+- Graphviz (with the C++ compiler)
 
 ### Project "Code Generation"
 This project translates mathematical expressions into code in Assembler language. 
@@ -19,5 +19,5 @@ After that script builds operations tree and draw it using the ***GraphViz*** mo
 
 ### Requirements for project "Code Generation"
 - Python 3.6+
-- Graphviz (with the C++ compilator)
+- Graphviz (with the C++ compiler)
 - PythonDS
