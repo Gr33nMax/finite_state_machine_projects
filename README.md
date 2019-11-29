@@ -9,7 +9,7 @@ DFSM (Deterministic Finite State Automaton).
 
 After each translaton script builds FSM-tree and draw it using the ***GraphViz*** module.
 
-### Requirements for project "Translations"
+#### Requirements for project "Translations"
 - Python 3.6+
 - Graphviz (with the C++ compiler)
 
@@ -17,7 +17,7 @@ After each translaton script builds FSM-tree and draw it using the ***GraphViz**
 This project translates mathematical expressions into code in Assembler language. 
 After that script builds operations tree and draw it using the ***GraphViz*** module.
 
-### Requirements for project "Code Generation"
+#### Requirements for project "Code Generation"
 - Python 3.6+
 - Graphviz (with the C++ compiler)
 - PythonDS
